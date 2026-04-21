@@ -1,0 +1,31 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+pymysql
+cryptography        # pymysql SSL support
+
+# File handling
+python-multipart    # for UploadFile
+
+# Audio processing
+torch
+torchaudio
+librosa
+soundfile
+
+# ML models
+faster-whisper
+pyannote.audio
+
+# Async task queue
+celery[redis]
+redis
+
+# PDF generation
+reportlab
+
+# Environment
+python-dotenv
