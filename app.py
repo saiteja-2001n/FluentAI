@@ -1,1 +1,1 @@
-from Backend.app import app
+from backend.app import app
